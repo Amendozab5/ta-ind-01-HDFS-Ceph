@@ -1,0 +1,28 @@
+# Artefactos de compilación LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+
+# Temporales y utilidades locales
+_tmp/
+_libs/
+__pycache__/
+*.pyc
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# NO ignorar PDFs: el PDF compilado y las capturas son entregables.
