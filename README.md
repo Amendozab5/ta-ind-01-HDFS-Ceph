@@ -10,10 +10,10 @@
 | Carrera | Ingeniería en Software / Computación |
 | Asignatura | Sistemas Distribuidos |
 | Código | TA-IND-01 |
-| Estudiante | _completar_ |
-| Paralelo | _completar_ |
+| Estudiante | _Angello Agustin Mendoza Bermello_ |
+| Paralelo | _7mo B_ |
 | Fecha | Noviembre 2026 |
-| Repositorio | _completar URL pública_ |
+| Repositorio | _https://github.com/Amendozab5/ta-ind-01-HDFS-Ceph_ |
 | Video de sustentación | _completar enlace (YouTube no listado o Drive abierto)_ |
 
 ## Compilación
