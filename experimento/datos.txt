@@ -1,1 +1,44 @@
-﻿Archivo de prueba HDFS - Angello Mendoza - 2026-11-13
+PRUEBA DE TOLERANCIA A FALLOS - HDFS
+=====================================
+
+Estudiante : Angello Agustin Mendoza Bermello
+Asignatura : Sistemas Distribuidos
+Paralelo   : 7mo B
+Actividad  : TA-IND-01 - Informe academico individual
+Tema       : HDFS frente a Ceph
+
+Equipo de pruebas
+-----------------
+Host       : SOGE
+Usuario    : aamen
+Sistema    : Windows 11
+Contenedor : Docker Desktop (contenedores Linux)
+
+Cluster HDFS
+------------
+NameNode   : 172.18.0.4   (puerto 9870)
+DataNode 1 : 172.18.0.3
+DataNode 2 : 172.18.0.2
+DataNode 3 : 172.18.0.5
+Factor de replicacion : 3
+
+Objetivo del experimento
+------------------------
+Comprobar que HDFS mantiene el bloque disponible cuando uno de los
+tres DataNode deja de responder, y que el NameNode informa la perdida
+de una replica sin declarar corrupto el archivo.
+
+Secuencia ejecutada
+-------------------
+1. Subida del archivo con factor de replicacion 3.
+2. Verificacion con fsck: tres replicas y estado HEALTHY.
+3. Detencion del DataNode 2 (172.18.0.2).
+4. Espera del tiempo de deteccion por heartbeat.
+5. fsck: bloque UNDER-REPLICATED con dos replicas vivas.
+6. Lectura del archivo con un nodo caido (prueba de disponibilidad).
+7. Reinicio del DataNode y verificacion de la re-replicacion.
+
+Nota
+----
+Este archivo se usa como carga de prueba. Su tamano no afecta el
+resultado: la replicacion se aplica a nivel de bloque, no de archivo.

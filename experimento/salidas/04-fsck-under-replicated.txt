@@ -1,6 +1,6 @@
-﻿FSCK started by root (auth:SIMPLE) from /172.18.0.4 for path /uteq/aamen/datos.txt at Sat Nov 14 02:01:47 UTC 2026
-/uteq/aamen/datos.txt 58 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-1593292100-172.18.0.4-1794615355113:blk_1073741825_1001. Target Replicas is 3 but found 2 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
-0. BP-1593292100-172.18.0.4-1794615355113:blk_1073741825_1001 len=58 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-480fe775-2050-4382-886d-879b3434dd4a,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-52669240-36bb-4af0-8192-cdca61e87b5c,DISK]]
+﻿FSCK started by root (auth:SIMPLE) from /172.18.0.4 for path /uteq/aamen/datos.txt at Sat Nov 14 03:01:47 UTC 2026
+/uteq/aamen/datos.txt 1386 bytes, replicated: replication=3, 1 block(s):  Under replicated BP-1593292100-172.18.0.4-1794615355113:blk_1073741826_1002. Target Replicas is 3 but found 2 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+0. BP-1593292100-172.18.0.4-1794615355113:blk_1073741826_1002 len=1386 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-52669240-36bb-4af0-8192-cdca61e87b5c,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-480fe775-2050-4382-886d-879b3434dd4a,DISK]]
 
 
 Status: HEALTHY
@@ -10,9 +10,9 @@ Status: HEALTHY
  Total symlinks:		0
 
 Replicated Blocks:
- Total size:	58 B
+ Total size:	1386 B
  Total files:	1
- Total blocks (validated):	1 (avg. block size 58 B)
+ Total blocks (validated):	1 (avg. block size 1386 B)
  Minimally replicated blocks:	1 (100.0 %)
  Over-replicated blocks:	0 (0.0 %)
  Under-replicated blocks:	1 (100.0 %)
@@ -35,7 +35,7 @@ Erasure Coded Block Groups:
  Missing block groups:		0
  Corrupt block groups:		0
  Missing internal blocks:	0
-FSCK ended at Sat Nov 14 02:01:47 UTC 2026 in 14 milliseconds
+FSCK ended at Sat Nov 14 03:01:47 UTC 2026 in 5 milliseconds
 
 
 The filesystem under path '/uteq/aamen/datos.txt' is HEALTHY

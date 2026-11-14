@@ -1,6 +1,6 @@
 ﻿Configured Capacity: 2162202353664 (1.97 TB)
-Present Capacity: 2045166026752 (1.86 TB)
-DFS Remaining: 2045165936640 (1.86 TB)
+Present Capacity: 2045165969408 (1.86 TB)
+DFS Remaining: 2045165879296 (1.86 TB)
 DFS Used: 90112 (88 KB)
 DFS Used%: 0.00%
 Replicated Blocks:
@@ -25,8 +25,8 @@ Hostname: b51a7f4a5adf
 Decommission Status : Normal
 Configured Capacity: 1081101176832 (1006.85 GB)
 DFS Used: 45056 (44 KB)
-Non DFS Used: 3525808128 (3.28 GB)
-DFS Remaining: 1022582968320 (952.35 GB)
+Non DFS Used: 3525853184 (3.28 GB)
+DFS Remaining: 1022582923264 (952.35 GB)
 DFS Used%: 0.00%
 DFS Remaining%: 94.59%
 Configured Cache Capacity: 0 (0 B)
@@ -35,7 +35,7 @@ Cache Remaining: 0 (0 B)
 Cache Used%: 100.00%
 Cache Remaining%: 0.00%
 Xceivers: 1
-Last contact: Sat Nov 14 02:01:32 UTC 2026
+Last contact: Sat Nov 14 03:01:42 UTC 2026
 Last Block Report: Sat Nov 14 00:15:59 UTC 2026
 Num of Blocks: 1
 
@@ -45,8 +45,8 @@ Hostname: 8beed89ffa1e
 Decommission Status : Normal
 Configured Capacity: 1081101176832 (1006.85 GB)
 DFS Used: 45056 (44 KB)
-Non DFS Used: 3525808128 (3.28 GB)
-DFS Remaining: 1022582968320 (952.35 GB)
+Non DFS Used: 3525820416 (3.28 GB)
+DFS Remaining: 1022582956032 (952.35 GB)
 DFS Used%: 0.00%
 DFS Remaining%: 94.59%
 Configured Cache Capacity: 0 (0 B)
@@ -55,7 +55,7 @@ Cache Remaining: 0 (0 B)
 Cache Used%: 100.00%
 Cache Remaining%: 0.00%
 Xceivers: 1
-Last contact: Sat Nov 14 02:01:34 UTC 2026
+Last contact: Sat Nov 14 03:01:40 UTC 2026
 Last Block Report: Sat Nov 14 00:16:01 UTC 2026
 Num of Blocks: 1
 
@@ -67,8 +67,8 @@ Hostname: 3e784e19c8bc
 Decommission Status : Normal
 Configured Capacity: 1081101176832 (1006.85 GB)
 DFS Used: 45056 (44 KB)
-Non DFS Used: 3525779456 (3.28 GB)
-DFS Remaining: 1022582996992 (952.35 GB)
+Non DFS Used: 3525828608 (3.28 GB)
+DFS Remaining: 1022582947840 (952.35 GB)
 DFS Used%: 0.00%
 DFS Remaining%: 94.59%
 Configured Cache Capacity: 0 (0 B)
@@ -77,8 +77,8 @@ Cache Remaining: 0 (0 B)
 Cache Used%: 100.00%
 Cache Remaining%: 0.00%
 Xceivers: 0
-Last contact: Sat Nov 14 00:55:50 UTC 2026
-Last Block Report: Sat Nov 14 00:15:59 UTC 2026
+Last contact: Sat Nov 14 02:41:39 UTC 2026
+Last Block Report: Sat Nov 14 02:22:50 UTC 2026
 Num of Blocks: 0
 
 
