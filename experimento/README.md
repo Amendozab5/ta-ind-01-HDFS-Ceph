@@ -13,6 +13,20 @@ regrese. Es decir: **el plano de datos prioriza disponibilidad, el de metadatos 
 - Docker Desktop con contenedores Linux.
 - 4 GB de RAM libres.
 
+## Sobre los tiempos de detección
+
+El `docker-compose.yml` incluye `dfs.heartbeat.interval=3` y
+`dfs.namenode.heartbeat.recheck-interval=2000`, con lo que la detección del
+fallo tarda unos 35 segundos.
+
+En la corrida documentada en `salidas/` esos valores todavía no estaban
+aplicados: el clúster se había levantado antes del cambio, así que usó los
+valores por defecto. Por eso el último contacto de `dn2` figura a las
+02:41:39 UTC y la declaración de muerte a las 03:01:47 UTC, unos 20 minutos.
+La fórmula teórica con valores por defecto es 2 × 5 min + 10 × 3 s = 10 min 30 s;
+el tiempo observado fue mayor porque a ese umbral se suma el ciclo periódico
+de comprobación del NameNode.
+
 ## Puesta en marcha
 
 ```bash

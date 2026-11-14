@@ -7,14 +7,14 @@
 |---|---|
 | Universidad | Universidad Técnica Estatal de Quevedo (UTEQ) |
 | Facultad | Facultad de Ciencias de la Ingeniería |
-| Carrera | Ingeniería en Software / Computación |
+| Carrera | Ingeniería en Software |
 | Asignatura | Sistemas Distribuidos |
 | Código | TA-IND-01 |
-| Estudiante | _Angello Agustin Mendoza Bermello_ |
-| Paralelo | _7mo B_ |
+| Estudiante | Angello Agustín Mendoza Bermello |
+| Paralelo | 7mo B |
 | Fecha | Noviembre 2026 |
-| Repositorio | _https://github.com/Amendozab5/ta-ind-01-HDFS-Ceph_ |
-| Video de sustentación | _completar enlace (YouTube no listado o Drive abierto)_ |
+| Repositorio | https://github.com/Amendozab5/ta-ind-01-HDFS-Ceph |
+| Video de sustentación | pendiente |
 
 ## Compilación
 
@@ -43,15 +43,17 @@ pdflatex main.tex
 ├── informe/                 # código LaTeX y PDF compilado
 ├── figs/                    # diagrama de arquitectura (TikZ/draw.io)
 ├── capturas/                # evidencias: ejecución, lectura de fuentes, experimento
-├── experimento/             # comandos y salidas del experimento (docker-compose, logs)
+├── experimento/             # comandos, compose y salidas del experimento
 └── sga/                     # PDF de una página para el SGA
 ```
 
 ## Estado del trabajo
 
 - [x] Tema definido y delimitado (HDFS vs Ceph).
-- [x] Corpus inicial de fuentes reunido y verificado (DOI + acceso abierto).
-- [ ] Levantamiento del clúster HDFS y capturas de ejecución.
-- [ ] Experimento de tolerancia a fallos.
+- [x] Corpus de fuentes reunido y verificado (DOI + acceso abierto).
+- [x] Clúster HDFS levantado y capturas de ejecución.
+- [x] Experimento de tolerancia a fallos (caída y recuperación de un DataNode).
+- [ ] Diagrama de arquitectura y esquema a mano (Anexo A).
 - [ ] Redacción y compilación del informe.
+- [ ] Capturas de lectura de fuentes (Anexo B).
 - [ ] Video de sustentación.
