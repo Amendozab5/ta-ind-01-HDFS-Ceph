@@ -82,3 +82,33 @@ Registro cronológico de sesiones. Cada entrada debe coincidir con la fecha de l
 - Fotografiar el esquema a mano y añadir las capturas de lectura de fuentes.
 - Grabar el video de sustentación y preparar el PDF de una página para el SGA.
 
+---
+
+## 2026-11-15 — Sesión 4: cierre, video de sustentación y entrega
+
+**Tiempo dedicado:** 2 h
+
+**Qué hice**
+
+1. Compilé el informe definitivo con pdflatex y iber, y verifiqué que los dos anexos aparecieran en su propia página con las imágenes incorporadas.
+2. Pasé la redacción completa a tercera persona, sin cambiar el contenido, y reescribí el resumen para que quedara dentro del rango de 150 a 200 palabras y nombrara el sistema comparado.
+3. Corregí la página de las citas del artículo de Ceph: la afirmación sobre los placement groups está en la página 1128, y la 1127 es la revisión de trabajos previos.
+4. Recorté los márgenes de papel de la fotografía del esquema a mano y la incorporé al Anexo A, con el nombre y la fecha visibles.
+5. Incorporé las tres capturas de lectura al Anexo B, cada una con el pie que indica autor, revista y página.
+6. Grabé el video de sustentación explicando las capturas del experimento y lo subí a YouTube como no listado. El enlace quedó en el README.
+7. Corregí en el README el nombre de la asignatura y el de la facultad, que no coincidían con la carátula ni con la página del SGA.
+
+**Problemas encontrados y cómo los resolví**
+
+- La bibliografía empezaba al final de la página de conclusiones y se partía por la mitad; añadí un salto de página antes para que ocupe una hoja completa.
+- La captura del Anexo A se separaba de su pie de foto al compilar; encerré cada captura en un bloque indivisible.
+- Repetir el experimento en vivo acercaba el video al límite de duración, así que se grabó explicando las capturas ya archivadas en lugar de ejecutar de nuevo el clúster.
+
+**Decisiones**
+
+- El video explica las capturas en el orden en que se produjeron y dedica la mayor parte del tiempo a la del estado degradado, que es la que sostiene la conclusión.
+- El resumen menciona los cuatro conceptos de la unidad y las dos conclusiones, para que se entienda completo sin depender del resto del documento.
+
+**Próxima sesión**
+
+- Ninguna: el trabajo queda entregado.

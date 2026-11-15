@@ -6,15 +6,15 @@
 | Campo | Valor |
 |---|---|
 | Universidad | Universidad Técnica Estatal de Quevedo (UTEQ) |
-| Facultad | Facultad de Ciencias de la Ingeniería |
+| Facultad | Facultad de Ciencias de la Computación y Diseño Digital |
 | Carrera | Ingeniería en Software |
-| Asignatura | Sistemas Distribuidos |
+| Asignatura | Aplicaciones Distribuidas |
 | Código | TA-IND-01 |
 | Estudiante | Angello Agustín Mendoza Bermello |
 | Paralelo | 7mo B |
 | Fecha | Noviembre 2026 |
 | Repositorio | https://github.com/Amendozab5/ta-ind-01-HDFS-Ceph |
-| Video de sustentación | pendiente |
+| Video de sustentación | https://youtu.be/8a4R1BmdxZo |
 
 ## Compilación
 
@@ -60,5 +60,5 @@ pdflatex main.tex
 - [x] Esquema a mano (Anexo A) y su fotografía.
 - [x] Capturas de lectura de fuentes (Anexo B).
 - [x] Compilación y revisión del PDF final.
-- [ ] Video de sustentación.
+- [x] Video de sustentación.
 - [x] PDF de una página para el SGA.
