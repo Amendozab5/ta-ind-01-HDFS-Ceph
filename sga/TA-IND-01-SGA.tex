@@ -1,0 +1,80 @@
+% =====================================================================
+%  TA-IND-01 — Hoja única para el SGA
+%  Debe ocupar EXACTAMENTE una página. No agregar contenido sin
+%  volver a comprobar que el PDF resultante sigue siendo de 1 página.
+%
+%  Compilación:  pdflatex portada-sga.tex
+% =====================================================================
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[top=2.6cm,bottom=2.6cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\graphicspath{{../informe/}}
+
+\definecolor{verdeuteq}{HTML}{7CBA42}
+
+\newcommand{\campoc}[2]{%
+  \vspace{0.42cm}%
+  {\bfseries #1\par}%
+  \vspace{0.06cm}%
+  {#2\par}}
+
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\fontfamily{ptm}\selectfont
+
+% Marco verde en L y línea negra, igual que la carátula del informe.
+\begin{tikzpicture}[remember picture, overlay]
+  \fill[verdeuteq] ([xshift=1.50cm,yshift=-1.11cm]current page.north west)
+        rectangle ([xshift=19.48cm,yshift=-1.55cm]current page.north west);
+  \fill[verdeuteq] ([xshift=1.50cm,yshift=-1.11cm]current page.north west)
+        rectangle ([xshift=1.94cm,yshift=-28.20cm]current page.north west);
+  \draw[black, line width=0.7pt]
+        ([xshift=1.50cm,yshift=-1.11cm]current page.north west)
+        rectangle ([xshift=19.58cm,yshift=-28.33cm]current page.north west);
+\end{tikzpicture}
+
+\vspace*{1.5cm}
+
+\includegraphics[height=2.2cm]{logo-uteq.png}\hspace{2.0cm}%
+\includegraphics[height=2.2cm]{logo-facultad.png}
+
+\vspace{0.7cm}
+{\Large\bfseries UNIVERSIDAD TÉCNICA ESTATAL DE QUEVEDO\par}
+\vspace{0.3cm}
+{\bfseries FACULTAD DE CIENCIAS DE LA COMPUTACIÓN Y DISEÑO DIGITAL\par}
+
+\campoc{CARRERA:}{INGENIERÍA EN SOFTWARE 7MO NIVEL}
+\campoc{ASIGNATURA:}{APLICACIONES DISTRIBUIDAS}
+\campoc{DOCENTE:}{ING. GLEISTON CICERÓN GUERRERO ULLOA}
+\campoc{TEMA:}{TA-IND-01 — ANÁLISIS CRÍTICO COMPARATIVO DE UN SISTEMA\\DISTRIBUIDO REAL: HDFS FRENTE A CEPH}
+\campoc{ESTUDIANTE:}{MENDOZA BERMELLO ANGELLO AGUSTÍN}
+\campoc{PARALELO:}{B}
+\campoc{FECHA:}{15 DE NOVIEMBRE DE 2026}
+
+\vspace{0.38cm}
+{\bfseries REPOSITORIO:\par}
+\vspace{0.14cm}
+% mbox impide que la dirección se corte en dos renglones
+\mbox{\large\url{https://github.com/Amendozab5/ta-ind-01-HDFS-Ceph}}\par
+
+\vspace{0.5cm}
+{\bfseries AÑO LECTIVO 2026 — 2027\par}
+\vspace{0.08cm}
+{\itshape Quevedo — Los Ríos — Ecuador\par}
+
+\end{titlepage}
+\end{document}
